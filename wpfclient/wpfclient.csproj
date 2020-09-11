@@ -40,63 +40,78 @@
   <ItemGroup>
     <Reference Include="Avalonia, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Animation, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Animation.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Base, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Base.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Controls, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="Avalonia.Controls.DataGrid, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Avalonia.Controls.DataGrid.0.9.12\lib\netstandard2.0\Avalonia.Controls.DataGrid.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.DesignerSupport, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.DesignerSupport.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.DesktopRuntime, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.DesktopRuntime.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Diagnostics, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Diagnostics.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Dialogs, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Dialogs.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Input, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Input.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Interactivity, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Interactivity.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Layout, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Layout.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Logging.Serilog, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Logging.Serilog.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Markup, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Markup.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Markup.Xaml, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Markup.Xaml.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.OpenGL, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.OpenGL.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Remote.Protocol, Version=0.9.12.0, Culture=neutral, PublicKeyToken=7ecde292c616a9f3, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.Remote.Protocol.0.9.12\lib\netstandard2.0\Avalonia.Remote.Protocol.dll</HintPath>
     </Reference>
     <Reference Include="Avalonia.Styling, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Styling.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Themes.Default, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Themes.Default.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Avalonia.Visuals, Version=0.9.12.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Avalonia.0.9.12\lib\net461\Avalonia.Visuals.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
       <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
@@ -112,6 +127,9 @@
     </Reference>
     <Reference Include="JetBrains.Annotations, Version=10.3.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
       <HintPath>..\packages\JetBrains.Annotations.10.3.0\lib\net\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.9.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.9\lib\net45\log4net.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro, Version=2.0.0.0, Culture=neutral, PublicKeyToken=51482d6f650b2b3f, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.2.2.0\lib\net47\MahApps.Metro.dll</HintPath>
@@ -201,6 +219,7 @@
     <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
@@ -257,6 +276,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
     <Page Include="Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -279,6 +300,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Common\Logger.cs" />
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -321,13 +344,16 @@
   <ItemGroup>
     <Resource Include="Resources\Entypo-license.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Avalonia.0.9.12\build\Avalonia.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Avalonia.0.9.12\build\Avalonia.props'))" />
     <Error Condition="!Exists('..\packages\Avalonia.0.9.12\build\Avalonia.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Avalonia.0.9.12\build\Avalonia.targets'))" />
+    <Error Condition="!Exists('..\packages\Avalonia.0.9.12\build\Avalonia.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Avalonia.0.9.12\build\Avalonia.props'))" />
   </Target>
   <Import Project="..\packages\Avalonia.0.9.12\build\Avalonia.targets" Condition="Exists('..\packages\Avalonia.0.9.12\build\Avalonia.targets')" />
 </Project>
